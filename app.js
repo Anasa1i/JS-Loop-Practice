@@ -7,8 +7,8 @@ document.write(emptyArray)*/
 //        QUESTION NO 2
 
 // var emptyArray = [
-//     [0,1,2,3], 
-//     [1,0,1,2], 
+//     [0,1,2,3],
+//     [1,0,1,2],
 //     [2,1,0,1]
 // ]
 // document.write(emptyArray[0] + "<br>" + emptyArray[1] + "<br>" + emptyArray[2] );
@@ -36,7 +36,7 @@ document.write(emptyArray)*/
 
 //        QUESTION NO 5
 
-// var fruits = ["Apple", "Banana", "Mango", "Orange", "Strawerry"]
+// var fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"]
 // for (var i = 0; i < fruits.length; i++) {
 //     document.write(` ${fruits[i]} <br> `)
 // }
@@ -44,26 +44,112 @@ document.write(emptyArray)*/
 //     document.write(`Element at index ${j} is ${fruits[i]}<br>`)
 // }
 
-// var cars = ["mehran", "suzuki", "fx", "khyber"]
-// var carInput = prompt("Enter a car name")
-// var match = "no"
-// for (var i = 0; i <= cars.length; i++){
-//     if(carInput === cars[i]){
-//         match ="yes"
-//         alert(carInput + "found")
-//     }
-// }
-// if(match == "no"){
-//     alert(carInput + "not found")
+//        QUESTION NO 6
+
+// document.write("<b>Counting: </b>")
+// for (var i = 1; i <= 15; i++){
+//     document.write(i + " " )
 // }
 
-// var heads = prompt('enter plyr name 1')
-// var heads2 = prompt('enter plyr name 2')
-// var toss = Math.random()*2
-// var convert = Math.floor(toss)
-// if(convert ==0){
-//     alert(heads + " wins")
+// document.write("<b>Reverse Counting: </b>")
+// for(var i = 10; i >= 1; i--){
+//     document.write(i + "," )
 // }
-// else {
-//     alert(heads2 + " loser")
+
+// document.write("Even: ")
+
+// for (var i =0; i <= 20; i=i+2){
+//     document.write(i + ",")
 // }
+
+// document.write("Odd: ")
+// for(var i = 1; i <= 19; i=i+2){
+//     document.write(i + ",")
+// }
+
+// document.write("Series: ")
+// for(var i = 2; i <= 20; i=i+2){
+//     document.write(i + "k, ")
+// }
+
+
+//       QUESTION NO 7
+
+
+// var userInp = prompt("Welcome to ABC BAKERY, What do you want to order sir/maam?");
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var found = false; 
+// for(var i=0; i<arr.length; i++){
+//     if(userInp === arr[i]){
+//         document.write(`${userInp} is <b>Available</b> at ${i} in our bakery`)
+//         found = true;
+//         break;
+//     }
+// }
+
+// if(found == false){
+//     document.write(`We sre sorry.${userInp} is <b>Not Available</b> at our bakery`)
+// }
+
+//       QUESTION NO 8
+
+// var mixNum = ["24","53","78","91","12"] 
+// var largeNum = "91";
+// for(var i = 0; i <= mixNum.length; ){
+        /////// if(mixNum[i] < largeNum){
+//         document.write(mixNum[i] +"The largest number is " + largeNum)
+//     ////// }
+// }
+
+// yeh code nh chal rhaaaa
+
+// var arr = [24,53,78,91,12];
+// document.write(`Array Itemns: ${arr} <br>`)
+// var largeNum = arr[4];
+// for (var i = 0; i < arr.length; i++) {
+    
+//     if ( largeNum > arr[i] ) {
+//         arr[i] = largeNum
+//     }
+// }
+
+// document.write(`The Largest number is ${largeNum}`)
+
+// var arr =[24, 53, 78, 91, 12];
+// document.write(`Array items: ${arr} <br>`)
+// var largest = Math.max(...arr)
+// document.write(`The largest number is ${largest}`)
+
+//       QUESTION NO 9
+
+// var arr =[24,53,78,91,12]
+// var smallest = Math.min(...arr)
+// document.write(`Array items:${arr} <br>The smallest number is ${smallest}`)
+
+// var arr = [24,53,78,91,12];
+// document.write(`Array Itemns: ${arr} <br>`)
+// var smallestNum = arr[4];
+// for (var i = 0; i < arr.length; i++) {
+    
+//     if ( smallestNum > arr[i] ) {
+//         arr[i] = smallestNum
+//     }
+// }
+
+// document.write(`The smallestst number is ${smallestNum}`)
+
+
+//       QUESTION NO 10
+
+// var range = 5;
+// for (var i = 1; i < 21 ; i++ ){
+//     document.write(range *i + ", ")
+// }
+// document.write(`range${i} <br>`)
+
+
+
+
+
+
+
